@@ -14,11 +14,11 @@ public class BulletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(transform.position.y > deadZone)
-        //{
+        if (transform.position.y > deadZone)
+        {
 
-        //    Destroy(gameObject);
-        //}
+            Destroy(gameObject);
+        }
     }
 
     public void OnTriggerEnter2D (Collider2D collision)
