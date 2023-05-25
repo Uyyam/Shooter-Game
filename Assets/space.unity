@@ -195,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699681388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 5.58, z: -0.9774517}
+  m_LocalPosition: {x: -0.02, y: -5.58, z: -0.9774517}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -306,14 +306,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765983746}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0657, y: -1.9715, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0.17, y: 2.54, z: 0}
   m_LocalScale: {x: 25.637413, y: 8.605526, z: 2.972441}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &765983750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
+    width: 0.75
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -513,15 +513,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253262046}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -2.23, z: 0}
-  m_LocalScale: {x: 2.94, y: 2.94, z: 2.94}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0.01, y: 3.02, z: 0}
+  m_LocalScale: {x: 1.8524941, y: 1.980972, z: 2.94}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 277151178}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!50 &1253262050
 Rigidbody2D:
   serializedVersion: 4
@@ -598,6 +598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 7469546707240216903, guid: 74196f4b3bf0745fbb7d02d67802dd43, type: 3}
   spawnPoint: {fileID: 277151178}
+  gravity: {fileID: 0}
   bulletSpeed: 5
 --- !u!1 &1444004274
 GameObject:

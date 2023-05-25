@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class AsteroidMover : MonoBehaviour
 {
-    //public float speed = 2;
+    public float speed = 2;
     public LogicScript logic;
-    public Rigidbody2D gravity;
+    public Rigidbody2D asteroid;
     public GameObject crash;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class AsteroidMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //transform.position += (Vector3.down * speed) * Time.deltaTime;
+        asteroid.velocity = Vector2.up * speed;
         
     }
 

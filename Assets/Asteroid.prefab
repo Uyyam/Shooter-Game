@@ -115,8 +115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1a0ea497b2cb4c29baffcf5202ca637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
   logic: {fileID: 0}
-  gravity: {fileID: 0}
+  asteroid: {fileID: 4372364941905743814}
   crash: {fileID: 7058996883701081081, guid: 824d93b55e43543ff9bc790bc583d197, type: 3}
 --- !u!50 &4372364941905743814
 Rigidbody2D:

@@ -6,6 +6,7 @@ public class BulletShooter : MonoBehaviour
 {
     public GameObject bullet;
     public Transform spawnPoint;
+    public Rigidbody2D gravity;
     public float bulletSpeed = 3;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class BulletShooter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)){
             GameObject newBullet = Instantiate(bullet, new Vector3(spawnPoint.position.x, spawnPoint.position.y, 0), transform.rotation);
-            newBullet.GetComponent<Rigidbody2D>().velocity = spawnPoint.up * bulletSpeed;
+            //newBullet.GetComponent<Rigidbody2D>().velocity = spawnPoint.up * bulletSpeed;
 
         }
     }
