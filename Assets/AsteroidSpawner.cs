@@ -49,7 +49,7 @@ public class AsteroidSpawner : MonoBehaviour
     void spawnAsteroid(){
         Instantiate(
             asteroid,
-            new Vector3(Random.Range(-8, 9), transform.position.y, 0),
+            new Vector3(Random.Range(-5, 5), transform.position.y, 0),
             transform.rotation);
         asteroidCounter++;
 
