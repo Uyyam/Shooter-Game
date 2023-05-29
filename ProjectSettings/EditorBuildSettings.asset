@@ -5,7 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 8bbb598f25b484b25834c251c2b53781
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: ebc559b0a1d43473b930e6bcff0effd4
+  - enabled: 1
+    path: Assets/Scenes/Hallway Walk.unity
+    guid: 135dc242a6c154cab879135e7200ccb2
+  - enabled: 1
+    path: Assets/Scenes/Plug Scene.unity
+    guid: 494219bb7072e4c4fabcb4f3953c6158
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 3bcfa18805b594dcabe478d915dee448
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: d64bbcc2afffd42e8819f5d3fa2ebab5
+  - enabled: 1
+    path: Assets/Scenes/Conclusion.unity
+    guid: e4c69c44c192742c7935594cda8ad351
   m_configObjects: {}
